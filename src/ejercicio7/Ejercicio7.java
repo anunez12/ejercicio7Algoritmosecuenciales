@@ -143,9 +143,12 @@ public class Ejercicio7 extends javax.swing.JFrame {
 
     private void txtDuracionKeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_txtDuracionKeyTyped
         char c=evt.getKeyChar(); 
-       if(!Character.isDigit(c) && c != '.') { 
+       if(!Character.isDigit(c)){ 
               getToolkit().beep(); 
               evt.consume(); 
+              
+              
+              
     }//GEN-LAST:event_txtDuracionKeyTyped
     } 
     /**
